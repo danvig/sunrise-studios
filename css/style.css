@@ -1,0 +1,47 @@
+/* 
+    CSS File for Sunrise Studios Site
+    Author: Daniel Viglietti
+
+*/
+
+/* Body Styling */
+body {
+    background-color: black;
+    color: #FEFCCC;
+    margin:0;
+    padding:0;
+}
+
+/* Page Division */
+.column {
+    float: left;
+}
+
+.left {
+    width: 15%
+}
+
+.right {
+    width: 25%;
+}
+
+.middle {
+    width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Background Colors */
+.darkred-back {
+    background-color: #330605;
+    color: #FEFCCC;
+}
+
+hr {
+    color: #5D321A;
+    width: 100px;
+}
